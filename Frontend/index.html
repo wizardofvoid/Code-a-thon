@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ReCodex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        .header .logo {
+            font-size: 24px;
+            color: #FFC107;
+            font-weight: bold;
+        }
+        .header nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header nav a {
+            color: #FFC107;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .header nav a:hover {
+            color: #FFD54F;
+        }
+        .hero-section {
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #333333;
+            animation: fadeInDown 1s ease;
+        }
+        .hero-section p {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #333333;
+            animation: fadeInUp 1.5s ease;
+        }
+        .main-content {
+            padding: 100px 40px 40px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            margin-top: -100px;
+        }
+        .main-content h2 {
+            font-size: 36px;
+            color: #000;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease;
+        }
+        .main-content p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+            animation: fadeInUp 1.5s ease;
+        }
+        footer {
+            background-color: #EEEEEE; /* Light grey footer */
+            padding: 10px;
+            text-align: center;
+            margin-top: auto;
+            color: #333333;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        footer p {
+            margin: 0;
+        }
+        body {
+    background: linear-gradient(135deg, #F4F4F4 10%, #E8E8E8 10%, #E8E8E8 20%, #F4F4F4 20%);
+    background-size: 20px 20px; /* Size of the pattern */
+}
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">ReCodex</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="input.html">Input Tab</a>
+        <a href="output.html">Output Tab</a>
+        <a href="ai.html">AI</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</div>
+
+<div class="hero-section">
+    <div>
+        <h1>Welcome to ReCodex</h1>
+        <p>Your one-stop solution for telematics data processing and AI-driven insights.</p>
+    </div>
+</div>
+
+<div class="main-content">
+    <h2>Our Services</h2>
+    <p>Explore the tools and options we provide to help you manage and analyze your telematics data effectively.</p>
+</div>
+<footer>
+    <p>© 2024 ReCodex. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

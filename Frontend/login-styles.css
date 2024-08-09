@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #F4F4F4 10%, #E8E8E8 10%, #E8E8E8 20%, #F4F4F4 20%);
+    background-size: 20px 20px; /* Size of the pattern */
+    color: #333333; /* Dark grey for text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333333; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFCC00; /* Caterpillar yellow for the title */
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+nav a {
+    color: #FFCC00; /* Orange color for the About Us link */
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #008080; /* Teal color on hover */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 380px;
+    background: #FFFFFF; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 40px auto; /* Centered with top margin */
+    margin-top: 150px;
+}
+
+form {
+    background: #FFFFFF; /* White background inside the form */
+    padding: 40px 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #FFCC00;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 15px;
+    background: #F4F4F4; /* Light grey background for input fields */
+    outline: none;
+    border: 1px solid #CCCCCC; /* Light grey border */
+    color: #333333;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+.inputBox input:focus {
+    border-color: #FFCC00; /* Highlight input on focus */
+    transition: border-color 0.3s ease;
+}
+
+.inputBox span {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    color: #666666; /* Medium grey for labels */
+    font-size: 0.85em;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #FFCC00; /* Orange color for links */
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+.links a:hover {
+    color: #008080; /* Teal color on hover */
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 12px;
+    background: #FFCC00;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100%;
+    color: #333333; /* Dark grey text on yellow button */
+}
+
+input[type="submit"]:hover {
+    background: #e6b800; /* Darker yellow on hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 15px;
+    display: none; /* Hidden by default */
+    transition: opacity 0.5s ease;
+}
+
+footer {
+    background-color: #EEEEEE; /* Light grey footer */
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    color: #333333;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+footer p {
+    margin: 0;
+}

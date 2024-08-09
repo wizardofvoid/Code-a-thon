@@ -13,7 +13,7 @@
             color: #333;
         }
         .header {
-            background-color: #000;
+            background-color: #333;
             color: #fff;
             padding: 15px 30px;
             display: flex;
@@ -42,6 +42,7 @@
             margin: 40px auto;
             text-align: center;
         }
+
         p {
             color: #666;
             margin-bottom: 20px;
@@ -68,7 +69,24 @@
         button:hover {
             background-color: #ffb300;
         }
+        footer {
+    background-color: #EEEEEE; /* Light grey footer */
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    color: #333333;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+footer p {
+    margin: 0;
+}
+body {
+    background: linear-gradient(135deg, #F4F4F4 20%, #E8E8E8 20%, #E8E8E8 40%, #F4F4F4 40%, #F4F4F4 60%, #E8E8E8 60%, #E8E8E8 80%);
+    background-size: 20px 20px; /* Size of the pattern */
+}
+        
     </style>
+    
 </head>
 <body>
 
@@ -93,6 +111,8 @@
 </div>
 
 <script src="input.js"></script>
-
+<footer>
+    <p>© 2024 ReCodex. All rights reserved.</p>
+</footer>
 </body>
 </html>

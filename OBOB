@@ -1,0 +1,79 @@
+[33mcommit 36fa1ee79c39ad28f37ff78062a75d3e0d08259a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: a36494b be255c2
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 17:22:23 2024 +0530
+
+    Merge branch 'main' of github.com:wizardofvoid/Code-a-thon
+
+[33mcommit be255c25d4f8508d204d90e5b0c972eb5719e545[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ShlokGhadekar <145497918+ShlokGhadekar@users.noreply.github.com>
+Date:   Fri Aug 9 17:24:07 2024 +0530
+
+    Update input.html
+
+[33mcommit 1007881cc7bae9f9bc6e58b3cd9f92a6fe877282[m
+Author: ShlokGhadekar <145497918+ShlokGhadekar@users.noreply.github.com>
+Date:   Fri Aug 9 17:23:37 2024 +0530
+
+    Update index.html
+
+[33mcommit a36494b65e4a63fa9f6c8a6f8eeb63181fa79d5c[m
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 17:21:49 2024 +0530
+
+    Reload
+
+[33mcommit 3c3f86ad4e8959c29fcbd8162d3d3302b0e2c5c0[m
+Author: ShlokGhadekar <145497918+ShlokGhadekar@users.noreply.github.com>
+Date:   Fri Aug 9 17:19:46 2024 +0530
+
+    Update input.html
+
+[33mcommit ee17e242cde39e755f9967f0b55579559e48824f[m
+Author: ShlokGhadekar <145497918+ShlokGhadekar@users.noreply.github.com>
+Date:   Fri Aug 9 17:18:48 2024 +0530
+
+    Add files via upload
+
+[33mcommit 7da68f28c3c7123e33dc6b5545b29b344ac613b3[m
+Author: Ayush Saraf <141942529+wizardofvoid@users.noreply.github.com>
+Date:   Fri Aug 9 17:11:22 2024 +0530
+
+    Add files via upload
+
+[33mcommit e912211372150267e44c6a38d6bd55fcd93a29df[m
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 16:49:45 2024 +0530
+
+    Modify file location
+
+[33mcommit 3c1eb110596ad2ca88d7a687c62a9afadce74c51[m
+Merge: 8031311 efcc7d7
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 16:47:40 2024 +0530
+
+    Set up Login
+
+[33mcommit 8031311b91112d8972efb5e663bddcb00e4d2621[m
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 16:45:44 2024 +0530
+
+    Set up Login Page
+
+[33mcommit efcc7d7d9580c7c4a23079cf21424d736718a72d[m
+Author: ShlokGhadekar <145497918+ShlokGhadekar@users.noreply.github.com>
+Date:   Fri Aug 9 15:40:00 2024 +0530
+
+    input page
+
+[33mcommit 0f474e6833fcaf868c38f929e4292e7f7e3a1ad2[m
+Author: krxsh007 <krishmmehta007@gmail.com>
+Date:   Fri Aug 9 14:20:35 2024 +0530
+
+    initial commit
+
+[33mcommit 63ef494874328d019a8a4b008ce70233f3fec395[m
+Author: Ayush Saraf <141942529+wizardofvoid@users.noreply.github.com>
+Date:   Fri Aug 9 14:04:03 2024 +0530
+
+    Initial commit

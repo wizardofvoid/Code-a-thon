@@ -49,3 +49,27 @@ document.querySelectorAll('.inputBox input').forEach(input => {
         }
     });
 });
+
+
+// Select the form box
+const box = document.querySelector('.box');
+
+// Add mousemove event listener for tilt effect
+box.addEventListener('mousemove', function (e) {
+    const boxWidth = box.offsetWidth;
+    const boxHeight = box.offsetHeight;
+    const centerX = box.offsetLeft + boxWidth / 2;
+    const centerY = box.offsetTop + boxHeight / 2;
+    const mouseX = e.clientX - centerX;
+    const mouseY = e.clientY - centerY;
+
+    const rotateX = (mouseY / boxHeight) * -10; // Adjusts tilt based on mouse Y position
+    const rotateY = (mouseX / boxWidth) * 10; // Adjusts tilt based on mouse X position
+
+    box.style.transform = `rotateY(${rotateY}deg) rotateX(${rotateX}deg)`;
+});
+
+// Reset the tilt effect when the mouse leaves the box
+box.addEventListener('mouseleave', function () {
+    box.style.transform = `rotateY(0deg) rotateX(0deg)`;
+});
